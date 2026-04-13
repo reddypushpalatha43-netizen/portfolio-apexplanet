@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pushpa Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav>
+    <h2>Pushpa</h2>
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkBtn">🌙</button>
+  </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="fade">
+  <h1>Hello, I'm <span>Pushpa</span></h1>
+  <p>Full Stack Developer 🚀</p>
+  <a href="#projects" class="btn">View Work</a>
+</section>
+
+<!-- About -->
+<section id="about" class="fade">
+  <h2>About Me</h2>
+  <p>I am passionate about building websites using HTML, CSS, JavaScript, PHP & MySQL.</p>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="fade">
+  <h2>My Projects</h2>
+
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>Responsive personal portfolio using HTML, CSS, JS</p>
+  </div>
+
+  <div class="card">
+    <h3>Login Page</h3>
+    <p>Frontend login UI with validation</p>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact" class="fade">
+  <h2>Contact Me</h2>
+  <form id="form">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="msg" placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Pushpa Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
